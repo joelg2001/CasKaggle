@@ -39,6 +39,7 @@ pot ser una gran transformació i que la de la variància no.
 ### Recerca de hiperparametres aplicades.
 
 | Model | Tipus de recerca | Prepocessing | Hiperparametres | Precisio | Temps |
+| -- | -- | -- | -- | -- | -- |
 | KNeighbors | Grid Search | Features selection | Leaf_size=1, p=1, n_neighbors=1 | 0.6717 | 20.418s |
 | KNeighbors | Random Search | Features selection | Leaf_size=1, p=1, n_neighbors=1 | 0.672 | 20.156s |
 | KNeighbors | Grid Search | PCA 2 dimensions | Leaf_size=1, p=1, n_neighbors=1 | 0.9996 | 20.149s |
@@ -47,15 +48,14 @@ pot ser una gran transformació i que la de la variància no.
 | KNeighbors | Random Search | PCA 2 dimensions | Leaf_size=49, p=2, n_neighbors=1 | 0.9993 | 256.387s |
 | Random Forest | Grid Search | Features selection | n_estimators=350, max_depth= None, Bootstrap=False | 0.7164 | 218.617s |
 | Random Forest | Random Search | Features selection | n_estimators=1100, max_depth= None, Bootstrap=False | 0.7125 | 259.891s |
-
 | Random Forest | Grid Search | Features selection | n_estimators=850, max_depth= None, Bootstrap=True | 0.7241 | 349.115s |
 | Random Forest | Random Search | Features selection | n_estimators=600, max_depth= None, Bootstrap=True | 0.7249 | 337.977s |
-
 | Random Forest | Grid Search | Features selection | n_estimators=600, max_depth= None, Bootstrap=True | 0.7233 | 1042.655s |
 | Random Forest | Random Search | Features selection | n_estimators=850, max_depth= None, Bootstrap=True | 0.7256 | 1048.072s |
 
 ### Millors models
 | Model | Prepocessing | Hiperparametres | Precisio | Temps |
+| -- | -- | -- | -- | -- |
 | KNeighbors | PCA 2 dimensions | Leaf_size=1, p=1, n_neighbors=1 | 0.9983 | 0.3695s |
 | KNeighbors | PCA 2 dimensions | Leaf_size=1, p=1, n_neighbors=1 | 0.9993 | 0.3750s |
 | KNeighbors | PCA 2 dimensions | Leaf_size=1, p=2, n_neighbors=1 | 0.9993 | 0.4339s |
