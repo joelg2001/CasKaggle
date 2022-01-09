@@ -64,7 +64,7 @@ pot ser una gran transformació i que la de la variància no.
 ## Demo
 S'han creat dues petites demostracions que mostren com el programa troba els millors models en una mostra més petita, tot
 fet des de un notebook autoexecutable.
-(Codis:Demostration_Code_FDataset,Demostration_Code_PCA)
+(Codis: Demostration_Code_FDataset, Demostration_Code_PCA)
 
 També s'adjunta un creador dels millors models de classificació considerats, ajuda a poder visualitzar el temps i aplicar-los.
 
