@@ -10,7 +10,7 @@ from imports import *
 
 def apply_models(particions,X,y,ret=False):
     for part in particions:
-        x_t, y_t, x_v, y_v = train_test_split(X, y, train_size=part)
+        x_t, x_v, y_t, y_v = train_test_split(X, y, train_size=part)
 
         #Creem el regresor logístic
         logireg = LogisticRegression(C=2.0, fit_intercept=True, penalty='l2', tol=0.001)
@@ -125,4 +125,4 @@ def apply_models(particions,X,y,ret=False):
         
         print("\n")
     if ret:
-        return [problr,probsvc,probsvcl,probsvcp,probsvcp2,probsvcs,probclf,probclfe,probKNNbt,probKNNkd,probKNNbrt,probKNNbtwd,probKNNkdwd,probKNNbrtwd],x_t, x_v, y_t, y_v
+        return[problr,probsvc,probsvcl,probsvcp,probsvcp2,probsvcs,probclf,probclfe,probKNNbt,probKNNkd,probKNNbrt,probKNNbtwd,probKNNkdwd,probKNNbrtwd],x_t, x_v, y_t, y_v
