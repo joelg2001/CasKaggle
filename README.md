@@ -7,17 +7,17 @@ Aquest conjunt de dades correspon a una versió augmentada del "Conjunt de dades
 creat per Vadim Arzamasov (Karlsruher Institut für Technologie, Karlsruhe, Alemanya) i donat al Repositori d'aprenentatge
 automàtic de la Universitat de Califòrnia (UCI), on actualment està allotjat.
 
-Tenim 60000 dades amb 14 atributs. Un d'ells, "stabf" és una variable categòrica binària.
+Hi ha 60000 dades amb 14 atributs. Un d'ells, "stabf" és una variable categòrica binària.
 Les dades estan normalitzades des de l'origen.
 
 ### Objectius del dataset
-Volem aconseguir classificar a partir dels atributs donats si una xarxa és estable o no, per fer-ho aplicarem models de classificació
+Es vol aconseguir classificar a partir dels atributs donats si una xarxa és estable o no, per fer-ho s'aplicarán models de classificació
 sobre les dades prèviament obtingudes per poder predir si una futura xarxa serà estable o no.
 
 ## Experiments
 Per poder aprendre el funcionament del dataset, ha sigut necessari primer realitzar una matriu de correlacions per poder observar quines variables
 poden ser les que ens ajudin a poder fer la classificació de les dades. També seria útil fer un enfrontament atribut contra atribut per poder analitzar
-possibles outlayers o possibles transformacions a les dades.
+possibles outliers o possibles transformacions a les dades.
 
 Serà necessari provar si les possibles transformacions de les dades com PCAs sobre 2 variables, 3 o limitant la variància de les dades ajudaria a poder
 escollir un bon model.
