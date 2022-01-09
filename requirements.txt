@@ -1,0 +1,7 @@
+Python packages required:
+ - Sklearn
+ - numpy
+ - pandas
+ - seaborn
+ - pickle
+ - skipy
