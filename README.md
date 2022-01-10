@@ -2,6 +2,9 @@
 ### Nom: Joel Guevara Lopez
 ### DATASET: Smart Grid Stability
 ### URL: [kaggle] https://www.kaggle.com/pcbreviglieri/smart-grid-stability
+### Models Grans: [drive] https://drive.google.com/drive/folders/111EXlvdBbOQhbDNbPRnE2w_YcX1E8UDE?usp=sharing
+
+
 ## Resum
 Aquest conjunt de dades correspon a una versió augmentada del "Conjunt de dades simulat d'estabilitat de la xarxa elèctrica",
 creat per Vadim Arzamasov (Karlsruher Institut für Technologie, Karlsruhe, Alemanya) i donat al Repositori d'aprenentatge
